@@ -1,0 +1,81 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   display: flex;
+   padding: 20px;
+   border-radius: 25px;
+   background-image: url("caramelito.jpg");
+   width: 500px; 
+   height: 300px;
+   background-repeat: no-repeat;
+   background-size: 540px 340px;
+   background-position: center;
+   margin: 0 auto;
+  }
+
+h1 {
+    margin-top: 50px;
+    margin-left: 30px;
+    position: absolute;
+    color: whitesmoke;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif; ;
+    font-size: 35px;
+}
+#chip {
+    margin-top: 130px;
+    margin-left: 20px;
+
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 130px;
+    padding-bottom: 0px;
+    width: 400px;
+    height: 200px;
+}
+
+#section1 {
+    display: flex;
+    min-height: 30px;
+    width: 400px;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    color: rgb(255, 187, 0);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: bold;
+}
+#section2 {
+    display: flex;
+    min-height: 30px;
+    width: 250px;
+    flex-flow: row;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: bold;
+    padding-left: 25px;
+    color: goldenrod;
+
+}
+#num {
+    color: honeydew;
+    font-size: 10px;
+    z-index: +1;
+}
+
+#h2 {
+    padding-bottom: -30px;
+    padding-left: 30px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
